@@ -16,28 +16,30 @@
 
     <!-- Header -->
     <header class="header">
-        <a class="head logo" href="./index.html"><span class="web">Web</span>Studio</a>
-        <nav class="header-nav">
-            <ul class="header-list">
-                <li>
-                    <a href="index.html" class="link">Студия</a>
+        <div class="container header-content">
+            <a class="head logo" href="./index.html"><span class="web">Web</span>Studio</a>
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li class="header-list-item">
+                        <a href="index.html" class="link">Студия</a>
+                    </li>
+                    <li class="header-list-item">
+                        <a href="portfolio.html" class="link current">Портфолио</a>
+                    </li>
+                    <li class="header-list-item">
+                        <a href="" class="link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header-link">
+                <li class="contact-link">
+                    <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a href="portfolio.html" class="link current">Портфолио</a>
-                </li>
-                <li>
-                    <a href=""  class="link" >Контакты</a>
+                <li class="contact-link">
+                    <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
-        </nav>
-        <ul class="header-link">
-            <li class="contact-link">
-                <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class="contact-link">
-                <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-        </ul>
+        </div>
     </header>
 
     <!-- Portfolio main navigation -->
@@ -59,49 +61,71 @@
                 <!-- Portfolio main list -->
                 <ul class="portfolio-block">
                     <li class="portfolio-list">
-                        <img src="./images/portfolio-img/img1.jpg" class="" alt="Технокряк" width="370" height="294" >
-                        <h3>Технокряк</h3>
-                        <p class="list-description">Веб-сайт</p>
+                        <img src="./images/portfolio-img/img1.jpg" class="" alt="Технокряк" width="370">
+                        <div class="portfolio-list-description">
+                            <h3>Технокряк</h3>
+                            <p class="list-description">Веб-сайт</p>
+                        </div>
                     </li>
                     <li class="portfolio-list">
-                        <img src="./images/portfolio-img/img2.jpg" class="" alt="Постер New Orlean vs Golden Star" width="370" height="294">
-                        <h3>Постер New Orlean vs Golden Star</h3>
-                        <p class="list-description">Дизайн</p>
+                        <img src="./images/portfolio-img/img2.jpg" class="" alt="Постер New Orlean vs Golden Star" width="370">
+                        <div class="portfolio-list-description">
+                            <h3>Постер New Orlean vs Golden Star</h3>
+                            <p class="list-description">Дизайн</p>
+                        </div>
                     </li>
                     <li class="portfolio-list">
                         <img src="./images/portfolio-img/img3.jpg" class="" alt="Ресторан Seafood" width="370" height="294">
-                        <h3>Ресторан Seafood</h3>
-                        <p class="list-description">Приложение</p>
+                        <div class="portfolio-list-description">
+                            <h3>Ресторан Seafood</h3>
+                            <p class="list-description">Приложение</p>
+                        </div>
                     </li>
                     <li class="portfolio-list">
-                        <img src="./images/portfolio-img/img4.jpg" class="s" alt="Проект Prime" width="370" height="294">
-                        <h3>Проект Prime</h3>
-                        <p class="list-description">Маркетинг</p>
+                        <img src="./images/portfolio-img/img4.jpg" class="s" alt="Проект Prime" width="370">
+                        <div class="portfolio-list-description">
+                            <h3>Проект Prime</h3>
+                            <p class="list-description">Маркетинг</p>
+                        </div>
                     </li>
                     <li class="portfolio-list">
-                        <img src="./images/portfolio-img/img5.jpg" class="s" alt="Проект Boxes" width="370" height="294">
-                        <h3>Проект Boxes</h3>
-                        <p class="list-description">Приложение</p>
+                        <img src="./images/portfolio-img/img5.jpg" class="s" alt="Проект Boxes" width="370">
+                        <div class="portfolio-list-description">
+                            <h3>Проект Boxes</h3>
+                            <p class="list-description">Приложение</p>
+                        </div>
                     </li>
+
                     <li class="portfolio-list">
-                        <img src="./images/portfolio-img/img6.jpg" class="s" alt="Inspiration has no Borders" width="370" height="294">
-                        <h3>Inspiration has no Borders</h3>
-                        <p class="list-description">Веб-сайт</p>
+                        <img src="./images/portfolio-img/img6.jpg" class="s" alt="Inspiration has no Borders" width="370">
+                        <div class="portfolio-list-description">
+                            <h3>Inspiration has no Borders</h3>
+                            <p class="list-description">Веб-сайт</p>
+                        </div>                        
                     </li>
+                   
                     <li class="portfolio-list">
-                        <img src="./images/portfolio-img/img7.jpg" class="" alt="Издание Limited Edition" width="370" height="294">
-                        <h3>Издание Limited Edition</h3>
-                        <p class="list-description">Дизайн</p>
+                        <img src="./images/portfolio-img/img7.jpg" class="" alt="Издание Limited Edition" width="370">
+                        <div class="portfolio-list-description">
+                            <h3>Издание Limited Edition</h3>
+                            <p class="list-description">Дизайн</p>
+                        </div>
                     </li>
+                   
                     <li class="portfolio-list">
                         <img src="./images/portfolio-img/img8.jpg" class="" alt="Проект LAB" width="370" height="294">
-                        <h3>Проект LAB</h3>
-                        <p class="list-description">Маркетинг</p>
+                        <div class="portfolio-list-description">
+                            <h3>Проект LAB</h3>
+                            <p class="list-description">Маркетинг</p>
+                        </div>                        
                     </li>
+
                     <li class="portfolio-list">
                         <img src="./images/portfolio-img/img9.jpg" class="" alt="Growing business" width="370" height="294">
-                        <h3>Growing business</h3>
-                        <p class="list-description">Приложение</p>
+                        <div class="portfolio-list-description">
+                            <h3>Growing business</h3>
+                            <p class="list-description">Приложение</p>
+                        </div>                        
                     </li>
                 </ul>
             </div>
@@ -111,7 +135,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <section>
+        <div class="container">
             <a class="foot logo"><span class="web">Web</span>Studio</a>
             <address class="address">
                 <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
@@ -124,7 +148,7 @@
                     </li>
                 </ul>
             </address>
-        </section>
+        </div>
     </footer>
     </body>
 </html>
