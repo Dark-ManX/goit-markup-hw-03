@@ -119,7 +119,6 @@ a {
 }
 .hero {
   padding: 200px 0;
-  height: 600px;
   background-color: var(--background-color);
   text-align: center;
 }
@@ -228,11 +227,13 @@ a {
 .footer {
   margin-left: auto;
   margin-right: auto;
-  padding: 60px 215px;
   background-color: var(--background-color);
+  padding: 60px 0;
 }
 .foot {
+  display: inline-block;
   color: white;
+  margin-bottom: 20px;
 }
 address,
 .footer-contacts {
@@ -247,10 +248,10 @@ address {
   color: var(--header-color);
 }
 .location {
-  margin-top: 20px;
+  margin-bottom: 9px;
 }
-.footer-link {
-  margin-top: 9px;
+.footer-link:not(:last-child) {
+  margin-bottom: 9px;
 }
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
