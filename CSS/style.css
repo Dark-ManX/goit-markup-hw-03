@@ -53,7 +53,7 @@ a {
   border-bottom: 1px solid #ececec;
 }
 .header-content {
-  height: 80px;
+  padding: 24px 0 25px;
   display: flex;
   align-items: center;
 }
