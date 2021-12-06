@@ -323,6 +323,9 @@ address {
   background: var(--header-color);
   outline: 1px solid #eeeeee;
 }
+.portfolio-jpg {
+  display: block;
+}
 .portfolio-list-description {
   padding-top: 20px;
   padding-bottom: 20px;
