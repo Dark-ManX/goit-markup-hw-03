@@ -50,10 +50,10 @@ a {
 /* Header information */
 
 .header {
+  padding: 24px 0 25px;
   border-bottom: 1px solid #ececec;
 }
 .header-content {
-  padding: 24px 0 25px;
   display: flex;
   align-items: center;
 }
@@ -115,8 +115,6 @@ a {
 
 /* Business decision */
 
-.main {
-}
 .hero {
   padding: 200px 0;
   background-color: var(--background-color);
@@ -275,6 +273,7 @@ address {
   margin-right: auto;
 }
 .nav-buttons {
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -312,7 +311,7 @@ address {
 }
 .portfolio-block {
   margin-left: -30px;
-  margin-top: 4px;
+  margin-top: -30px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -328,12 +327,11 @@ address {
 }
 .portfolio-list-description {
   border: 1px solid #eeeeee;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
+  padding: 20px 24px;
+  border-top: none;
 }
 .portfolio-list-description > h3 {
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
 }
 .portfolio-list-description > p {
   letter-spacing: 0.03em;
